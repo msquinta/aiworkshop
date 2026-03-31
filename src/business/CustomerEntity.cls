@@ -2,8 +2,8 @@
   File        : CustomerEntity
   Purpose     : Business Entity for Customer data access
   Syntax      : 
-  Description : 
-  Author(s)   : 
+  Description : Encapsulates CRUD operations and business validation for Customer data
+  Author(s)   : msquinta
   Created     : Tue Apr 15 11:54:46 CEST 2025
   Notes       : 
 ----------------------------------------------------------------------*/

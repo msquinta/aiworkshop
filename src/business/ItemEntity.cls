@@ -2,8 +2,8 @@
   File        : ItemEntity
   Purpose     : Business Entity for Item data access
   Syntax      : 
-  Description : 
-  Author(s)   : 
+  Description : Encapsulates CRUD operations and business validation for Item data
+  Author(s)   : msquinta
   Created     : Mon Mar 31 14:00:00 UTC 2026
   Notes       : 
 ----------------------------------------------------------------------*/

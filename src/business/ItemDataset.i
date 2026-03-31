@@ -2,8 +2,8 @@
   File        : ItemDataset.i
   Purpose     : Dataset definition for Item entity
   Syntax      : 
-  Description : 
-  Author(s)   : 
+  Description : Defines temp-table and dataset for the Item business entity
+  Author(s)   : msquinta
   Created     : Mon Mar 31 14:00:00 UTC 2026
   Notes       : 
 ----------------------------------------------------------------------*/

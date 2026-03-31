@@ -4,9 +4,9 @@
 &ANALYZE-SUSPEND _UIB-CODE-BLOCK _CUSTOM _DEFINITIONS C-Win 
 /*------------------------------------------------------------------------
 
-  File: 
+  File: CustomerWin.w
 
-  Description: 
+  Description: Customer maintenance window
 
   Input Parameters:
       <none>
@@ -14,9 +14,9 @@
   Output Parameters:
       <none>
 
-  Author: 
+  Author: msquinta
 
-  Created: 
+  Created: Tue Apr 15 11:54:46 CEST 2025
 
 ------------------------------------------------------------------------*/
 /*          This .W file was created with the Progress AppBuilder.      */
