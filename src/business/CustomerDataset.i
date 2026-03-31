@@ -2,8 +2,8 @@
   File        : CustomerDataset.i
   Purpose     : Dataset definition for Customer entity
   Syntax      : 
-  Description : 
-  Author(s)   : 
+  Description : Defines temp-table and dataset for the Customer business entity
+  Author(s)   : msquinta
   Created     : Tue Apr 15 11:54:46 CEST 2025
   Notes       : 
 ----------------------------------------------------------------------*/
