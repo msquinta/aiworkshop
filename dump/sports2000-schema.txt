@@ -1,0 +1,38 @@
+sports2000 Database Schema Summary
+==================================
+
+Full schema definition lives in dump/sports2000.df in the ProjectGengar
+repository (2624 lines, 25 tables, 210 fields). This file is a summary only.
+
+Sequences
+---------
+NextCustNum, NextInvNum, NextOrdNum, NextItemNum, NextRefNum, NextVisitor,
+NextSupplNum, NextLocalDefNum, NextWareNum, NextBinNum
+
+Tables
+------
+Benefits            (7 fields)
+BillTo              (10 fields)
+Bin                 (5 fields)
+Customer            (18 fields)
+Department          (2 fields)
+Employee            (16 fields)
+Family              (6 fields)
+Feedback            (8 fields)
+InventoryTrans      (10 fields)
+Invoice             (8 fields)
+Item                (14 fields)
+LocalDefault        (9 fields)
+Order               (15 fields)
+OrderLine           (8 fields)
+POLine              (8 fields)
+PurchaseOrder       (5 fields)
+RefCall             (6 fields)
+Salesrep            (4 fields)
+ShipTo              (11 fields)
+State               (3 fields)
+Supplier            (14 fields)
+SupplierItemXref    (2 fields)
+TimeSheet           (9 fields)
+Vacation            (3 fields)
+Warehouse           (9 fields)
