@@ -46,6 +46,44 @@ This workflow guides you through adding a new property to the currently open ABL
    - YES: Include custom logic in getter/setter (will use METHOD-based implementation)
    - NO: Use simple property accessors (will use native property syntax)
 
+## Code Generation
+
+Based on your answers, one of the following code patterns will be generated and inserted into the appropriate location in your class:
+
+### Simple Property (No Custom Logic)
+
+```abl
+/* [PropertyName] property */
+DEFINE [GET-ACCESS-LEVEL] [STATIC] PROPERTY [propertyName] AS [TYPE] 
+    GET.
+    [SET-ACCESS-LEVEL] SET.
+```
+
+For a read-only property:
+
+```abl
+/* [PropertyName] property (read-only) */
+DEFINE [GET-ACCESS-LEVEL] [STATIC] PROPERTY [propertyName] AS [TYPE] 
+    GET.
+```
+
+### Property with Custom Logic
+
+```abl
+/* [PropertyName] property - private backing field */
+VAR PRIVATE [STATIC] [TYPE] m_[propertyName].
+
+/* [PropertyName] property */
+DEFINE [GET-ACCESS-LEVEL] [STATIC] PROPERTY [propertyName] AS [TYPE] 
+    GET():
+        RETURN m_[propertyName].
+    END GET.
+    [SET-ACCESS-LEVEL] SET(INPUT value AS [TYPE]):
+        [VALIDATION_CODE]
+        m_[propertyName] = value.
+    END SET.
+```
+
 ## Best Practices
 
 - Group property declarations at the top of the class
